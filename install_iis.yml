@@ -1,5 +1,5 @@
 ---
-    - name: install the iis web service
+    - name: install and start the iis web service
       hosts: windows
       tasks:
        - name: install iis service
